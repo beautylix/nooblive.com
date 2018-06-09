@@ -2,9 +2,9 @@
 
     body_value,
 
-    'rare',
+    'replace this item',
 
-    'less  common');
+    'replace with this item');
 	
 	
 	
@@ -12,7 +12,7 @@
 
     body_value,
 
-    'rare',
+    'replace this item',
 
-    'less common');
+    'replace with this item');
 
