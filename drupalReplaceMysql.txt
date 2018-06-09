@@ -1,0 +1,18 @@
+    UPDATE drupal_node__body  SET body_value = REPLACE (
+
+    body_value,
+
+    'rare',
+
+    'less  common');
+	
+	
+	
+    UPDATE drupal_node_revision__body  SET body_value = REPLACE (
+
+    body_value,
+
+    'rare',
+
+    'less common');
+
