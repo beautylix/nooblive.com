@@ -48,6 +48,15 @@
 
 
 
+<audio autoplay  class="video-js vjs-default-skin vjs-big-play-centered"
+  controls preload="auto" width="640" height="360"
+  poster="/tvfile/videojs/onlineradio.jpg"
+  data-setup='{"fluid":true}'>
+<source src="" type="audio/mp3" />
+</audio>
+
+
+
 
 <video autoplay class="video-js vjs-default-skin vjs-big-play-centered"
   controls preload="auto" width="640" height="360"
