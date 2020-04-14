@@ -1,0 +1,132 @@
+
+
+.accordion {
+	list-style:none;
+	padding:0;
+	width: 103%;
+	height: 500px;
+	margin-left: -1px;
+	overflow: scroll;
+   border: 1px solid #ddd;
+}
+
+.accordion li label {
+	background: #fff; /* fallback colour */
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	color: #333;
+	letter-spacing: 0.09em;
+	cursor: pointer;
+	display:block;
+	padding:15px 0 15px 30px;
+}
+
+.accordion li input[type='checkbox'] {
+	display: none;
+}
+
+
+.accordion li i {
+	font-size:18px;
+	vertical-align: middle;
+	width:20px;
+	display:inline-block;
+}
+
+.accordion li span {
+	display:inline;
+	float:right;
+	background:#adece0;
+	border:1px solid #707781;
+	border-bottom:1px solid #ccc;
+	padding:4px 16px;
+	margin-right: 8px;
+	font-size:10px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: inset 0 0 10px #ccc;
+	-webkit-box-shadow: inset 0 0 10px #ccc;
+	box-shadow: inner 0 0 10px #ccc;
+	position:relative;
+}
+
+.accordion li label:hover {
+	background: #566f82; /* fallback colour */
+	color: #fff;
+}
+
+.accordion li label:hover span {
+	background:#bcbedf;
+}
+
+.accordion li input[type='checkbox']:checked ~ label {
+	background: #cbe9e8; /* fallback colour */
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	color: #333;
+}
+
+.accordion li input[type='checkbox']:checked ~ label span {
+	background: #aac7ef; /* fallback colour */
+	border-top:1px solid #1b5f85;
+	border-bottom:1px solid #4cb1e4;
+	-moz-box-shadow: inset 0 0 5px #ccc;
+	-webkit-box-shadow: inset 0 0 5px #ccc;
+	box-shadow: inner 0 0 5px #ccc;
+}
+
+.accordion li input[type='checkbox']:checked ~ .submenu {
+	height: auto;
+	display:block;
+	height: 100%;
+
+}
+
+.accordion ul {
+	background:#fff; margin:0; padding:0;
+	-moz-box-shadow: inset 0 2px 2px #b3b3b3;
+	-webkit-box-shadow: inset 0 2px 2px #b3b3b3;
+	box-shadow: inner 0 2px 2px #b3b3b3;
+}
+
+.accordion ul li a {
+	display:block;
+	padding:15px 30px;
+	color:#666;
+	text-decoration:none;
+}
+
+.accordion ul li a:hover {
+	color: #fff;
+	background: #566f82;
+}
+
+.accordion ul li a span {
+	color:#999;
+	background:none;
+	border:1px solid #ccc; 
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.accordion ul li {
+	border-bottom:1px solid #ccc;
+}
+
+/*
+.accordion ul li:first-child {
+	padding-top:6px;
+}
+
+.accordion ul li:last-child {
+	padding-bottom:6px; border:0;
+}
+*/
+.submenu {
+	height: 0;
+	display: block;
+	overflow: auto;
+}
+	
+
